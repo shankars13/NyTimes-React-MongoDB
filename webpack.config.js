@@ -13,13 +13,15 @@ module.exports = {
     loaders: [
       {
         test: /\.jsx?$/,
-        excluse: /(node_modules|bower_components)/,
-        loader: 'babel',
+        loader: 'babel-loader',
+        include:/app/,
+        // exclude: /node_modules/,
         query: {
           // These are the specific transformations we'll be using. 
           presets: ['react', 'es2015']
         }
       }
     ]
-  }
+  },
+  devtool: "eval-source-map"
 }

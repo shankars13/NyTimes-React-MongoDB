@@ -1,12 +1,6 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var Router = require('react-router').Router;
+var React = require("react");
+var ReactDOM = require("react-dom");
 
-var routes = require('./config/routes');
+var Main = require("./components/Main");
 
-ReactDOM.render(
-
-  <Router>{routes}</Router>,
-  document.getElementById('app')
-
-);
+ReactDOM.render(<Main />, document.getElementById("NYTapp"));
