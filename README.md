@@ -1,7 +1,14 @@
 # NyTimes-React-MongoDB
 
-npm install webpack -D
+New York Times Search (MERN)
+React-based rendition of the New York Times Article Search application. Allows users to save articles to the database (MongoDB).
 
-npm install webpack -g
-
-webpack ./app.js bundle.js
+Technologies used
+NodeJs
+CSS3
+Javascript
+React
+Webpack
+Babel
+MongoDB
+NPM packages

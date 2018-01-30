@@ -7,6 +7,7 @@ module.exports = {
   output: {
     filename: "public/bundle.js"
   },
+  
 
   // This will be what we do
   module: {

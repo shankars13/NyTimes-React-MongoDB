@@ -25,7 +25,7 @@ app.use(express.static("public"));
 mongoose.Promise = Promise;
 if (process.env.NODE_ENV === 'production') {
     console.log('node env is', process.env.NODE_ENV);
-    // mongoose.connect('mongodb://heroku_z4c48c2t:q0mhgel9aph8nc77aqh2bgrip2@ds161021.mlab.com:61021/heroku_z4c48c2t');
+    mongoose.connect('mongodb://heroku_vmk2r7pq:rgjvgjududnj659r8kt954ldg1@ds145790.mlab.com:45790/heroku_vmk2r7pq');
 } else {
     console.log('node env is', process.env.NODE_ENV);
     mongoose.connect('mongodb://localhost/nyt-search');
